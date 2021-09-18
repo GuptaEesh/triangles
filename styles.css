@@ -15,7 +15,7 @@ marquee{
 header{
     margin-top: 1rem;
     margin-bottom: 4rem; 
-    font-size: larger;   
+    /* font-size: larger;    */
 }
 .head-links{
     display: inline;
@@ -24,10 +24,15 @@ header{
 }
 .link{
     text-decoration: none;
-    background-color: violet;
+    background-color: aqua;
     color: blue;
     border-radius: 1rem;
     cursor:crosshair;
+}
+.active-link{
+    background-color: deeppink;
+    color: azure;
+    font-size: xx-large;
 }
 #quiz-form{
     color: burlywood;
@@ -42,11 +47,15 @@ h1{
 h2{
     color:burlywood;
 }
+h3{
+    font-size: x-large;
+}
 input{
     padding: 1rem 2rem;
     color: violet;
     font-size: larger;
     font-weight: 600;
+    border-radius: 1rem;
 }
 #output{
     font-family: 'EB Garamond', serif;
@@ -75,4 +84,11 @@ li{
     color:chartreuse;
     font-weight: 700;
     font-size: larger;
+}
+#angle, #side-1, #side-2, #side-length{
+    border-radius: 1rem;
+    width: 30%;
+    height: 5vh;
+    padding-left: 0.5rem;
+    
 }

@@ -7,10 +7,11 @@ function Score(){
     var score=0;
     var i=0;
    var results=new FormData(formAns);
-   for(var value of results.values()){
-       if(value==correctAns[i]){
-           score=score+1;
+   for(var iterator of results.values()){
+       if(iterator==correctAns[i]){
+            score=score+1;
        }
+       
        i=i+1;
    }
    output.innerText="The score is "+ score;
